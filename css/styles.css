@@ -1,0 +1,256 @@
+/* Primary Color: Neon Blue (#1F8EF1)
+Accent Color 1: Electric Pink (#FF4081)
+Accent Color 2: Lime Green (#B8E986)
+Background Color: Soft Yellow (#FFF176)
+Text Color: Deep Purple (#512DA8)
+Button Color: Bright Orange (#FF7043) */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h2 {
+  line-height: 1.5;
+}
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* containers */
+.container-fluid {
+  padding: 3% 10% 10%;
+}
+.my-container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  margin: 1rem 0 2rem 0;
+}
+
+/* buttons */
+.download-btn {
+  margin: 4% 2% 0;
+}
+
+/* navigation bar */
+.mynav {
+  position: sticky;
+  top: 0;
+  background-color: #134074;
+  padding: 0 9.5%;
+  z-index: 99;
+}
+.raised {
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 1rem;
+  font-size: 1.03rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+}
+.nav-link {
+  color: #efc9c9 !important;
+}
+.nav-link:hover {
+  color: rgb(255, 255, 255) !important;
+}
+/* Title section */
+#title {
+  background-color: #134074;
+}
+
+.description {
+  text-align: left;
+}
+
+.iphone-container {
+  text-align: center;
+}
+.iphone-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 10rem;
+}
+
+/* features section */
+#features {
+  background-color: #eef4ed;
+  padding: 6rem 8rem;
+  text-align: center;
+  position: relative;
+}
+.feature-box {
+  text-align: center;
+  padding: 2.5rem 3.2rem;
+}
+.features-icon {
+  font-size: 4rem;
+  color: #8da9c4;
+  padding-bottom: 20px;
+}
+.features-icon:hover {
+  color: #13315c;
+}
+
+/* testimonials section */
+#testimonials {
+  text-align: center;
+  background-color: #8da9c4;
+  color: #fff;
+}
+
+.testimonials-image {
+  width: 10%;
+  padding-top: 2%;
+  border-radius: 100%;
+}
+
+/* press section */
+#press {
+  background-color: #8da9c4;
+  text-align: center;
+  padding: 2% 0;
+}
+.press-logo {
+  width: 20%;
+  padding: 0 2%;
+}
+.carousel-item {
+  padding: 6rem 14rem;
+}
+.indicator-arrow {
+  visibility: hidden;
+}
+.carousel:hover .indicator-arrow {
+  visibility: visible;
+}
+
+/* pricing secion */
+#pricing {
+  background-color: #eef4ed;
+  padding: 10rem 8rem;
+  text-align: center;
+}
+.price-card {
+  padding: 2% 2% 0;
+}
+.card {
+  box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.card-header {
+  background-color: #245185;
+  color: #fff;
+}
+.card {
+  border-radius: 20px;
+}
+.mybtn {
+  background-color: #13315c;
+  border-color: #13315c;
+  border-radius: 10px;
+}
+.btn-block {
+  border-color: #0b2545;
+  border-radius: 10px;
+}
+.btn-block:hover,
+.mybtn:hover {
+  background-color: #0b2545;
+  border-color: #0b2545;
+}
+
+/* cta section */
+#cta {
+  text-align: center;
+  padding: 6rem 8rem;
+  background-color: #134074;
+  color: #fff;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer {
+  background-color: #eef4ed;
+  text-align: center;
+  padding: 6rem 8rem;
+}
+.contact-icon {
+  margin: 1.5%;
+}
+
+@media only screen and (max-width: 1080px) {
+  .iphone-image {
+    position: static;
+    transform: rotate(0);
+    margin-top: 5%;
+  }
+  .description {
+    text-align: center;
+  }
+}
+
+/* The entire scrollbar */
+::-webkit-scrollbar {
+  width: 20px; /* Width of the scrollbar */
+  height: 12px; /* Height of the horizontal scrollbar */
+}
+
+/* The scrollbar track (background) */
+::-webkit-scrollbar-track {
+  background: #eef4ed; /* Color of the scrollbar track */
+  border-radius: 30px; /* Rounded corners */
+}
+
+/* The scrollbar handle (draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #13315c; /* Scrollbar color */
+  border-radius: 10px; /* Rounded scrollbar handle */
+  border: 3px solid #f4f4f4; /* Adds padding around the thumb */
+}
+
+/* When hovering over the scrollbar handle */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0b2545; /* Darker color on hover */
+}
+
+/* The corner of two scrollbars (bottom-right) */
+::-webkit-scrollbar-corner {
+  background: #f4f4f4; /* Matching the track color */
+}
+
+/* Custom horizontal scrollbar (optional) */
+::-webkit-scrollbar-horizontal {
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb-horizontal {
+  background-color: #888;
+  border-radius: 10px;
+}
